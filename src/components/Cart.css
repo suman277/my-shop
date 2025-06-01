@@ -1,0 +1,85 @@
+.cart-container {
+  max-width: 768px; /* ~max-w-3xl */
+  margin: 0 auto;
+  padding: 1rem; /* p-4 */
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.cart-title {
+  font-weight: bold;
+  font-size: 1.25rem; /* text-xl */
+  margin-bottom: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem; /* mb-2 */
+  padding-bottom: 0.5rem; /* pb-2 */
+  border-bottom: 1px solid #ccc;
+}
+
+.item-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.quantity-buttons {
+  display: flex;
+  gap: 0.5rem; /* space-x-2 */
+  margin-top: 0.5rem;
+}
+
+.btn {
+  background-color: #d1d5db; /* gray-300 */
+  color: #000;
+  padding: 0.25rem 0.5rem; /* px-2 py-1 */
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #9ca3af; /* gray-400 */
+}
+
+.btn-remove {
+  background-color: #ef4444; /* red-500 */
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-remove:hover {
+  background-color: #dc2626; /* red-600 */
+}
+
+.cart-summary {
+  margin-top: 1rem;
+}
+
+.total-price {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.btn-clear {
+  background-color: #fbbf24; /* yellow-500 */
+  color: #000;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-clear:hover {
+  background-color: #d97706; /* yellow-600 */
+}
